@@ -26,4 +26,5 @@ for a in `cat /tmp/connected.txt`; do cat /var/lib/misc/dnsmasq.leases | grep $a
 cat /tmp/header.txt
 cat /tmp/userlist.txt | sort -n | column -t
 
+# Exit the program indicating that it ran successfully.
 exit 0
