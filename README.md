@@ -4,7 +4,7 @@ This works with Network-Manger connection sharing also.
 
 To run this in real time use the command: 
 
-`watch bash showusers`
+`watch bash showusers.sh`
 
 It will run the script every 2 seconds and you'll be able to see who connects and disconnects in near real time. 
 
